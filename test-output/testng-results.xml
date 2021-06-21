@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46438" started-at="2021-06-21T06:53:55 IST" finished-at="2021-06-21T06:54:42 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46438" started-at="2021-06-21T06:53:55 IST" finished-at="2021-06-21T06:54:42 IST">
+      <class name="runner.BookFlightTest">
+        <test-method status="PASS" signature="initalization()[pri:0, instance:runner.BookFlightTest@184f6be2]" name="initalization" is-config="true" duration-ms="11359" started-at="2021-06-21T06:53:55 IST" finished-at="2021-06-21T06:54:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method status="PASS" signature="BookingTickets(java.lang.String, java.lang.String)[pri:0, instance:runner.BookFlightTest@184f6be2]" name="BookingTickets" duration-ms="34001" started-at="2021-06-21T06:54:08 IST" data-provider="CitiesData" finished-at="2021-06-21T06:54:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingTickets -->
+      </class> <!-- runner.BookFlightTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
